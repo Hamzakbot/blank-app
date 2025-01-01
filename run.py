@@ -25,7 +25,7 @@ class RunBot():
   room_id = "66c537965912b02e24d4a8d8"
   bot_token = "03853e31cdc15928169fc555f96b7f9fbb0b6bf4aad96a721e230d203fa8a5e1"
   bot_file = "main"
-  bot_class = "Bot"
+  bot_class = "Mybot"
 
   def __init__(self) -> None:
     self.definitions = [
