@@ -10,7 +10,7 @@ class BlackJackBot(BaseBot):
     using the BlackJackGame class. 
     """
 
-    identifier: str = "/b "  # Command prefix for the bot
+    identifier: str = "/ "  # Command prefix for the bot
     game: 'BlackJackGame' = None
     COMMANDS: list[str] = [
         "help",             # list all commands
